@@ -1,9 +1,9 @@
-#Reddit Bot Code
+# Reddit Bot Code
 
 This is a Reddit Bot code which will display the comments and Reply to the specified subreddit comments. This application automates the process of engaging with Reddit posts, generating comments that align with popular trends and user sentiments, thereby increasing the likelihood of receiving upvotes.
 
 
-##Getting Started
+## Getting Started
 
 
 I used VS code to run this program.
@@ -15,13 +15,13 @@ To run the code, follow these steps:
 2.Run the 'Reddit_bot.py' file.
 
 
-##Features
+## Features
 - **Effortless Engagement**: Automatically engage with Reddit posts by generating comments that resonate with the community's interests.
 - **User-Friendly Interface**: Access the karma farmer through a web interface for convenient interaction and monitoring.
 - **Scalable Deployment**: Deploy the farmer on various hosting platforms to ensure accessibility and scalability.
 
 
-##Configuration
+## Configuration
 
 
 Ensure to configure the following parameters in the reddit_bot.py file:
@@ -32,7 +32,7 @@ Ensure to configure the following parameters in the reddit_bot.py file:
 - `password`: Your Reddit account password.
 
 
-##Usage
+## Usage
 
 1. Configure the reddit_bot.py file with your Reddit account credentials and other settings.
 
