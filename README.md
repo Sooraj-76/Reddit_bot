@@ -1,43 +1,72 @@
-# Reddit Bot Code
+# Vehicle Management & Maintenance Logs
 
-This is a Reddit Bot code which will display the comments and Reply to the specified subreddit comments. This application automates the process of engaging with Reddit posts, generating comments that align with popular trends and user sentiments, thereby increasing the likelihood of receiving upvotes.
+**VEHICLE-MANAGER**
 
+Vehicle Management & Maintenance Logs is a desktop application designed to simplify the process of tracking vehicles, logging maintenance activities, and managing service history.  
+Built with **Java Swing** and **SQLite**, this tool helps users maintain accurate records of vehicle details, service dates, costs, and maintenance activities — all in one organized system.
 
-## Getting Started
+---
 
+## Table of Contents
 
-I used VS code to run this program.
+1. [Features](#features)
+2. [Working](#working)
+3. [Installation](#installation)
+4. [Results](#results)
 
-To run the code, follow these steps:
-
-1.Navigate to the project directory.
-
-2.Run the 'Reddit_bot.py' file.
-
+---
 
 ## Features
-- **Effortless Engagement**: Automatically engage with Reddit posts by generating comments that resonate with the community's interests.
-- **User-Friendly Interface**: Access the karma farmer through a web interface for convenient interaction and monitoring.
-- **Scalable Deployment**: Deploy the farmer on various hosting platforms to ensure accessibility and scalability.
 
+- ### Vehicle Record Management:
+  Add, update, and store details of multiple vehicles including model, number, type, and purchase year.
 
-## Configuration
+- ### Maintenance Log Tracking:
+  Log maintenance activities such as servicing, oil changes, part replacements, repairs, and costs.
 
+- ### SQLite Database Storage:
+  Lightweight and serverless database for securely storing all records locally.
 
-Ensure to configure the following parameters in the reddit_bot.py file:
+- ### Maintenance History View:
+  View complete service history for each vehicle with date, cost, and servicing details.
 
-- `client_id`: Your Reddit API client ID.
-- `client_secret`: Your Reddit API client secret.
-- `username`: Your Reddit account username.
-- `password`: Your Reddit account password.
+- ### Simple & Intuitive UI:
+  Easy-to-use Java Swing interface with smooth navigation between modules.
 
+---
 
-## Usage
+## Working
 
-1. Configure the reddit_bot.py file with your Reddit account credentials and other settings.
+- ### Add Vehicle Details:
+  Enter essential information about each vehicle you want to track.
 
-2. Run the application using either the terminal or a web interface.
+- ### Log Maintenance Activity:
+  Record services, repairs, costs, and next service reminders.
 
-3. Monitor the logs to track the farmer's activities and engagement.
+- ### View Service History:
+  Quickly access past maintenance entries to track vehicle health and expenses.
 
-4. Customize the comment generation method and parameters based on your preferences and requirements.
+- ### Local Database Storage:
+  All data is saved automatically into an integrated SQLite database file.
+
+---
+
+## Installation
+
+Follow these steps to set up and run the project on your computer:
+
+### Steps
+
+1. **Clone the repository:**
+```bash'''
+https://github.com/your-username/vehicle-manager.git
+
+2.**Simply double-click:**
+
+run.exe
+
+3.**SQLite Setup (No installation needed):**
+
+The SQLite database file is included:
+
+vehicle_management.db
