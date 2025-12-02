@@ -58,9 +58,9 @@ Follow these steps to set up and run the project on your computer:
 ### Steps
 
 1. **Clone the repository:**
-```bash'''
+```bash
 https://github.com/your-username/vehicle-manager.git
-
+```
 2.**Simply double-click:**
 
 run.exe
